@@ -16,7 +16,7 @@ def sum_multiples(multiples: tuple, min_max: tuple):
     total = 0
     for i in range(minimum, maximum+1):
         for j in multiples:
-            if i%j == 0:
+            if i % j == 0:
                 total += i
                 break
 
@@ -31,7 +31,10 @@ def efficient_sum_multiples_3_or_5(min_max: tuple):
     """
     minimum = min_max[0]
     maximum = min_max[1]
-    return sum([i for i in range(minimum, maximum+1) if i%3 == 0 or i%5 == 0])
+    return sum([i for i in range(minimum, maximum+1)
+                if i % 3 == 0
+                or i % 5 == 0
+                ])
 
 
 if __name__ == '__main__':
