@@ -2,10 +2,11 @@
 
 [![Build Status](https://travis-ci.org/toonarmycaptain/project_euler.svg?branch=master)](https://travis-ci.org/toonarmycaptain/project_euler)
 [![Coverage Status](https://coveralls.io/repos/github/toonarmycaptain/project_euler/badge.svg?branch=master)](https://coveralls.io/github/toonarmycaptain/project_euler?branch=master)
-
+[![Updates](https://pyup.io/repos/github/toonarmycaptain/project_euler/shield.svg)](https://pyup.io/repos/github/toonarmycaptain/project_euler/)
+[![Python 3](https://pyup.io/repos/github/toonarmycaptain/project_euler/python-3-shield.svg)](https://pyup.io/repos/github/toonarmycaptain/project_euler/)
 Solutions to non-current Project Euler problems. 
 
-This is my repo of solutions to project Euler, complete with tests. 
+This is my repo of my solutions to Project Euler, complete with tests. 
 
 Some problems I will solve with an algorithmic solution that demonstrated the algorithm and a more optimised or one-liner solution eg:
 
