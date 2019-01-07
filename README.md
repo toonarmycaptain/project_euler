@@ -8,7 +8,7 @@ Solutions to non-current Project Euler problems.
 
 This is my repo of my solutions to Project Euler, complete with tests. 
 
-Some problems I will solve with an algorithmic solution that demonstrated the algorithm and a more optimised or one-liner solution eg:
+Some problems I will solve with an algorithmic solution that demonstrates an algorithm and an equivalent or more optimised/one-liner solution eg:
 
 
 **Problem 1 - sum of numbers divisible by 3 or 5:**
