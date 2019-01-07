@@ -5,7 +5,7 @@
 
 Solutions to non-current Project Euler problems. 
 
-This is my repo of solutions to project Euler, complete with tests. 
+This is my repo of my solutions to Project Euler, complete with tests. 
 
 Some problems I will solve with an algorithmic solution that demonstrated the algorithm and a more optimised or one-liner solution eg:
 
