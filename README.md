@@ -1,4 +1,8 @@
 # project_euler
+
+[![Build Status](https://travis-ci.org/toonarmycaptain/project_euler.svg?branch=master)](https://travis-ci.org/toonarmycaptain/project_euler)
+[![Coverage Status](https://coveralls.io/repos/github/toonarmycaptain/project_euler/badge.svg?branch=master)](https://coveralls.io/github/toonarmycaptain/project_euler?branch=master)
+
 Solutions to non-current Project Euler problems. 
 
 This is my repo of solutions to project Euler, complete with tests. 

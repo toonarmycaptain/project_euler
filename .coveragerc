@@ -1,0 +1,9 @@
+[run]
+
+include = /home/travis/build/toonarmycaptain/project_euler/*
+
+omit =
+     *.yml
+     *.md
+     test_*.py
+
