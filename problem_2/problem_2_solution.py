@@ -18,4 +18,4 @@ def sum_even_fibonacci_numbers(maximum: int):
 
 
 if __name__ == '__main__':
-    print(sum_even_fibonacci_numbers(90))
+    print(sum_even_fibonacci_numbers(3999999))
