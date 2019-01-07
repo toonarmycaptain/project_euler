@@ -23,11 +23,11 @@ def sum_multiples(multiples: tuple, min_max: tuple):
     return total
 
 
-def efficient_sum_multiples_3_or_5(min_max):
+def efficient_sum_multiples_3_or_5(min_max: tuple):
     """
     One-liner of sum_multiples using list comprehension.
-    :param min_max:
-    :return:
+    :param min_max: tuple (int, int)
+    :return: int
     """
     minimum = min_max[0]
     maximum = min_max[1]
