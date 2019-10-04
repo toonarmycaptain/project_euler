@@ -1,4 +1,4 @@
-def sum_even_fibonacci_numbers(maximum: int):
+def sum_even_fibonacci_numbers(maximum: int) -> int:
     """
     Sum even fibonacci numbers that are less than the maximum value.
 
