@@ -32,6 +32,6 @@ def test_smallest_divisible_zero_or_less_args(arg1, arg2):
     with pytest.raises(ValueError):
         smallest_divisible(arg1, arg2)
 
-def smallest_divisible_range_low_larger_than_range_high():
+def test_smallest_divisible_range_low_larger_than_range_high():
     with pytest.raises(ValueError):
         smallest_divisible(2, 1)
