@@ -1,7 +1,7 @@
 # https://projecteuler.net/problem=1
 
 
-def sum_multiples(multiples: tuple, min_max: tuple):
+def sum_multiples(multiples: tuple, min_max: tuple) -> int:
     """
     Takes a range and a list of numbers, returns the sum of the numbers
     within the range that are multiples of any number in the list of
