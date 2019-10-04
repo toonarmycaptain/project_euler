@@ -2,9 +2,10 @@
 The prime factors of 13195 are 5, 7, 13 and 29.
 What is the largest prime factor of the number 600851475143
 """
+from typing import List
 
 
-def prime_factors(number):
+def prime_factors(number: int) -> List[int]:
     """
     Returns list of prime factors for the number supplied. 
 
@@ -27,7 +28,7 @@ def prime_factors(number):
     return prime_factors_list  # , count
 
 
-def largest_prime_factor(number):
+def largest_prime_factor(number: int) ->int:
     return max(set(prime_factors(number)))
 
 
