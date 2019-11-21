@@ -6,7 +6,7 @@ from project_euler.problem_5.problem_5_solution import smallest_divisible
 def test_smallest_divisible_1_10():
     assert smallest_divisible(1, 10) == 2520
 
-def test_smallest_divisible_1_10():
+def test_smallest_divisible_1_20():
     assert smallest_divisible(1, 20) == 232792560
 
 @pytest.mark.parametrize(
