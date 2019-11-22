@@ -6,5 +6,7 @@ omit =
      *.yml
      *.md
      *_env/*
+     */test_*.py
+
 
 
