@@ -8,7 +8,7 @@ environment:
         - PYTHON: "C:\\Python38-x64"
 
 init:
-  - SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%
+  - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
 
 install:
     - python -m pip install -r requirements_test.txt
@@ -19,4 +19,4 @@ test_script:
     -   ps: |
             $env:PATH -split ";"
     -   ps: |
-            $env:PYTHON\python -m pytest
+            &$env:PYTHON\python -m pytest
