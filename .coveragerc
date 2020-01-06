@@ -7,6 +7,4 @@ omit =
      *.md
      *_env/*
      */test_*.py
-
-
-
+     */make_files.py
