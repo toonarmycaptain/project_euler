@@ -19,4 +19,6 @@ test_script:
     -   ps: |
             cd ..
     -   ps: |
+            SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%
+    -   ps: |
             &$env:PYTHON\python -m pytest
