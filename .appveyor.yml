@@ -17,6 +17,6 @@ install:
 test_script:
 #    - python -m pytest
     -   ps: |
-            ls
+            $env:PATH -split ";"
     -   ps: |
-            &$env:PYTHON\python -m pytest
+            $env:PYTHON\python -m pytest
