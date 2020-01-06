@@ -17,7 +17,7 @@ install:
 test_script:
 #    - python -m pytest
     -   ps: |
-            cd ..
+            cd c:\\projects\project_euler
     -   ps: |
             SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%
     -   ps: |
