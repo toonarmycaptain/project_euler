@@ -17,4 +17,6 @@ install:
 test_script:
 #    - python -m pytest
     -   ps: |
+            cd ..
+    -   ps: |
             &$env:PYTHON\python -m pytest
