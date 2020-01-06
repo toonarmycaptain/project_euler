@@ -1,9 +1,10 @@
-from types import GeneratorType
 import pytest
 
-from project_euler.problem_4.problem_4_solution import (yield_3_digit_products_from_largest_to_shortest,
-                                                        find_largest_palindrome,
+from types import GeneratorType
+
+from project_euler.problem_4.problem_4_solution import (find_largest_palindrome,
                                                         is_palindrome,
+                                                        yield_3_digit_products_from_largest_to_shortest,
                                                         )
 
 
