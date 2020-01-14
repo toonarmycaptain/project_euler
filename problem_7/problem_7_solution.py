@@ -37,5 +37,7 @@ def nth_prime(n: int) -> int:
     return primes_list[-1]
 
 
-if __name__ == '__main__':
-    print(nth_prime(10001))
+"""
+# Solution to problem 7
+nth_prime(10001) == 104743
+"""

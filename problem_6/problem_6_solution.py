@@ -65,5 +65,7 @@ def difference_between_sum_of_squares_and_square_of_sum(range_low: int, range_hi
     return square_sum_of_consecutive_natural_numbers(range_low, range_high) - sum_consecutive_squared_natural_numbers(range_low, range_high)
 
 
-if __name__ == '__main__':
-    print(difference_between_sum_of_squares_and_square_of_sum(1, 100))
+"""
+# Solution to problem 6
+difference_between_sum_of_squares_and_square_of_sum(1, 100)) == 25164150
+"""

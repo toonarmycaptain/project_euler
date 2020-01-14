@@ -80,5 +80,6 @@ def largest_product_in_series(number_series: str, adjacent_digits: int = 13) -> 
 
 
 """
+# Solution to problem 8
 largest_product_in_series(problem_series, 13)) == (23514624000, '5576689664895')
 """

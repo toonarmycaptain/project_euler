@@ -17,5 +17,7 @@ def sum_even_fibonacci_numbers(maximum: int) -> int:
     return total
 
 
-if __name__ == '__main__':
-    print(sum_even_fibonacci_numbers(3999999))
+"""
+# Solution to problem 2
+sum_even_fibonacci_numbers(3999999) == 4613732
+"""

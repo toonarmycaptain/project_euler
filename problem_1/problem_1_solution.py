@@ -37,6 +37,7 @@ def efficient_sum_multiples_3_or_5(min_max: tuple):
                 ])
 
 
-if __name__ == '__main__':
-    # Solution to problem 1
-    print(sum_multiples((3, 5), (0, 999)))
+"""
+# Solution to problem 1
+sum_multiples((3, 5), (0, 999)) == 233168
+"""

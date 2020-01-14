@@ -44,5 +44,7 @@ def find_largest_palindrome(source_list: Iterable[int]) -> int:
     return largest
 
 
-if __name__ == '__main__':
-    print(find_largest_palindrome(yield_3_digit_products_from_largest_to_shortest()))
+"""
+# Solution to problem 4
+find_largest_palindrome(yield_3_digit_products_from_largest_to_shortest()) == 906609
+"""

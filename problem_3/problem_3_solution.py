@@ -32,5 +32,7 @@ def largest_prime_factor(number: int) ->int:
     return max(set(prime_factors(number)))
 
 
-if __name__ == '__main__':
-    print(largest_prime_factor(600851475143))
+"""
+# Solution to problem 3
+largest_prime_factor(600851475143) == 6857
+"""

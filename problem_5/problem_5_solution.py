@@ -33,5 +33,7 @@ def smallest_divisible(range_low: int, range_high: int) -> int:
     return candidate_multiple
 
 
-if __name__ == '__main__':
-    print(smallest_divisible(1, 20))
+"""
+# Solution to problem 5
+print(smallest_divisible(1, 20)) == 232792560
+"""
