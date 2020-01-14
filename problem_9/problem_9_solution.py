@@ -17,6 +17,8 @@ from typing import Optional
 
 def pythagorean_triplet(n: int) -> Optional[int]:
     """
+    Returns the product of the pythagorean triplet for which the sum equals
+    the given integer n, or None if no triplet exists..
 
     :param n: int
     :return: int or None
