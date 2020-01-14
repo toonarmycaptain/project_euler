@@ -28,7 +28,7 @@ def prime_factors(number: int) -> List[int]:
     return prime_factors_list  # , count
 
 
-def largest_prime_factor(number: int) ->int:
+def largest_prime_factor(number: int) -> int:
     return max(set(prime_factors(number)))
 
 
