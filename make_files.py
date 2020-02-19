@@ -14,9 +14,9 @@ def make_files():
     os.chdir(parent_dir)
 
     # Get next problem
-    latest_problem_num: int = int(max(str(folder)[-1] for folder in parent_dir.iterdir()
-                                      if folder.is_dir() and str(folder)[-1].isdigit()
-                                      ))
+    latest_problem_num: int = max(int(str(folder).split('_')[-1]) for folder in parent_dir.iterdir()
+                                  if folder.is_dir() and str(folder)[-1].isdigit()
+                                  )
 
     new_problem_num = latest_problem_num + 1
 
