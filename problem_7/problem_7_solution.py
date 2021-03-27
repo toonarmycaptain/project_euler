@@ -8,9 +8,9 @@ What is the 10 001st prime number?
 def nth_prime(n: int) -> int:
     """
     Returns the nth prime in sequence starting at 2.
-    
+
     Implicitly define 0th and 1st prime as 2.
-    
+
     :param n: int > 0
     :return: int
     """
