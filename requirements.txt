@@ -1,2 +1,2 @@
 beautifulsoup4==4.12.2
-html2text==2020.1.16
+html2text==2024.2.25
