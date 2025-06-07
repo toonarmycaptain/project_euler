@@ -3,4 +3,4 @@ coveralls==4.0.1
 pytest==8.4.0
 pytest-cov==6.1.1
 pytest-mypy==1.0.1
-types-requests==2.32.0.20250515 
+types-requests==2.32.0.20250602 
