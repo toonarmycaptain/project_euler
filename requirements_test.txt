@@ -1,6 +1,6 @@
 coverage==7.10.6
 coveralls==4.0.1
 pytest==8.4.2
-pytest-cov==6.2.1
+pytest-cov==6.3.0
 pytest-mypy==1.0.1
 types-requests==2.32.4.20250809 
