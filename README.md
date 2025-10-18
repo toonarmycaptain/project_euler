@@ -1,7 +1,6 @@
 # project_euler
 
 [![Build Status](https://travis-ci.org/toonarmycaptain/project_euler.svg?branch=master)](https://travis-ci.org/toonarmycaptain/project_euler)
-[![Coverage Status](https://coveralls.io/repos/github/toonarmycaptain/project_euler/badge.svg?branch=master)](https://coveralls.io/github/toonarmycaptain/project_euler?branch=master)
 [![Updates](https://pyup.io/repos/github/toonarmycaptain/project_euler/shield.svg)](https://pyup.io/repos/github/toonarmycaptain/project_euler/)
 [![Python 3](https://pyup.io/repos/github/toonarmycaptain/project_euler/python-3-shield.svg)](https://pyup.io/repos/github/toonarmycaptain/project_euler/)
 Solutions to non-current Project Euler problems. 
